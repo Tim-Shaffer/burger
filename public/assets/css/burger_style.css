@@ -1,9 +1,18 @@
+body {
+    background-color: rgb(196, 233, 255);
+}
+
 .row {
     margin: 2.5em;
 }
 
 #top-row {
     text-align: center;
+}
+
+img {
+    width: 35%;
+
 }
 
 #burger-label, #burger-button {
@@ -24,4 +33,9 @@
 
 li {
     list-style-type: none;
+    padding: .2em;
+}
+
+.devBurger {
+    border: 0;
 }

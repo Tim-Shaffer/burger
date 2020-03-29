@@ -8,6 +8,10 @@ var PORT = process.env.PORT || 8080;
 
 var app = express();
 
+// added the ./ static to allow the image to show
+app.use(express.static("./"));
+
+// the public folder static is needed for the css
 app.use(express.static("public"));
 
 app.use(express.urlencoded({ extended: true }));

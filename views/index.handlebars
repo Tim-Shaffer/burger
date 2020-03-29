@@ -2,15 +2,18 @@
 
   <div class="row" id="top-row">
 
-    <div class="col"></div>
+    {{!-- <div class="col"></div> --}}
 
     <div class="col">
       
-      <h1>Eat A Burger</h1>
+      <h2>Welcome to Good Burger, Home of the Good Burger</h2> 
+      <h3>May I take your Order?</h3>
+
+      <img class="img-fluid img-responsive" src="../public/assets/img/Good_Burger.jpg" alt="Good Burger">
 
     </div>
 
-    <div class="col"></div>
+    {{!-- <div class="col"></div> --}}
 
   </div>
 
@@ -19,6 +22,10 @@
     <div class="col-2"></div>
 
     <div class="col-4" id="to-be-eaten">
+
+      <h4>Burgers To Eat:</h4>
+
+      <br>
     
       <ul>
         {{#each burgers}}
@@ -32,6 +39,10 @@
     </div>
     
     <div class="col-4" id="eaten">
+
+      <h4>Burgers Already Eaten:</h4>
+
+      <br>
 
       <ul>
         {{#each burgers}}
@@ -74,7 +85,7 @@
         </div>
 
         <br>
-        
+
         <p> Enter a burger that you would like to eat and Click the "Submit" button </p>
 
       </form>
