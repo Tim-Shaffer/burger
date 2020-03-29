@@ -37,7 +37,22 @@ var orm = {
     
   },
 
-  insertOne: function() {
+  insertOne: function(table, col, val, cb) {
+    var queryString = "INSERT INTO " + table + "(";
+    queryString += col.toString();
+    queryString += ") VALUES ('";
+    queryString += val.toString();
+    queryString += "') ";
+
+    console.log(queryString);
+
+    connection.query(queryString, function(err, result) {
+      if (err) {
+        throw err;
+      }
+
+      cb(result);
+    });
     
   },
 
