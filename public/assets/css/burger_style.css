@@ -19,6 +19,11 @@ img {
     text-align: center;
 }
 
+#burger-label {
+    font-weight: bold;
+    font-size: large;
+}
+
 #to-be-eaten {
     text-align: left;
 }
@@ -34,8 +39,17 @@ img {
 li {
     list-style-type: none;
     padding: .2em;
+    font-style: italic;
+    font-weight: bold;
 }
 
 .devBurger {
     border: 0;
+}
+
+#instructions {
+    font-style: italic;
+    font-weight: bold;
+    font-size: large;
+    font-family: 'Palatino Linotype';
 }
