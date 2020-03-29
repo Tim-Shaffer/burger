@@ -1,0 +1,15 @@
+.row {
+    margin: 2.5em;
+}
+
+#burger-label, #burger-button {
+    text-align: center;
+}
+
+#burger {
+    width: 100%;
+}
+
+li {
+    list-style-type: none;
+}
