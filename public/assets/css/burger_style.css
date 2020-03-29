@@ -2,8 +2,20 @@
     margin: 2.5em;
 }
 
+#top-row {
+    text-align: center;
+}
+
 #burger-label, #burger-button {
     text-align: center;
+}
+
+#to-be-eaten {
+    text-align: left;
+}
+
+#eaten {
+    text-align: right;
 }
 
 #burger {
