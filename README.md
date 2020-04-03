@@ -62,12 +62,18 @@ The app is deployed to **HEROKU** at the following link:  https://tim-shaffer-bu
 │   ├── public
 │   │   └── assets
 │   |       ├── css
-│   │       |   └── burgers_controller.js
+│   │       |   └── burger_style.css
 │   |       ├── img
 │   │       |   └── Good_Burger.jpg
 │   |       └── js
 │   │           └── burgers.js
 │   └── views
+│       ├─── layouts
+│       |       └── main.handlebars
+│       ├─── partials
+│       |       └─── burgers
+│       |            └── burger-block.handlebars
+│       └── index.handlebars
 ├── .gitignore
 ├── package.json
 ├── README.md
